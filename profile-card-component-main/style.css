@@ -1,0 +1,97 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Kumbh sans", sans-serif;
+    font-size: 18px;
+    color: hsl(229, 23%, 23%);
+}
+
+.section{
+    background: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    background-color: hsl(185, 75%, 39%);
+    background-position: -90% -500px, 170% 400px;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section .card{
+    background: white;
+    text-align: center;
+    max-width: 350px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.section .card .profile-photo{
+    height: 150px;
+    width: 350px;
+    background: url(images/bg-pattern-card.svg);
+    background-size: cover;
+
+}
+
+.section .card .image-victor{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: -50px auto -30px auto;
+    border: 5px solid white;
+}
+
+.section .card .image-victor img{
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+.section .card .card-body{
+    margin-top: 54px;
+    margin-bottom: -75px;
+    height: 250px;
+    line-height: 1.8rem;
+}
+
+.section .card .card-body .name{
+    font-size: 1.4rem;
+}
+
+.section .card .card-body .city{
+    margin-top: 10px;
+}
+
+.section .card .card-body .age, .section .card .card-body .city{
+    font-weight: 300;
+    font-size: 1.1rem;
+    color: hsl(0, 0%, 59%);
+}
+
+.section .card .card-body .status .stats-ativ{
+    display: block;
+    font-weight: 300;
+    font-size: 0.9rem;
+    color: hsl(0, 0%, 59%);
+    letter-spacing: .1rem;
+}
+
+.section .card .card-body .status{
+    padding-top: 22px;
+    padding-right: 40px;
+    border-top: 1px solid hsl(0, 10%, 88%);
+    padding-left: 40px;
+    margin-top: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}

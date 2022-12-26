@@ -1,0 +1,135 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section{
+    background-color: hsl(217, 54%, 11%);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(216, 50%, 16%);
+    max-width: 350px;
+    height: 600px;
+    border-radius: 15px;
+    gap: 1rem;
+    padding: 25px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+    
+}
+
+.section .card .nft img{
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    
+}
+
+.section .card .text .avatar img{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border: 1px solid white;
+    border-radius: 100px;
+}
+
+.section .card .text{
+    text-align: left;
+    text-decoration: none;
+    font-family: Outfit;
+    display:block;
+    margin-bottom: 15px;
+    font-size: 18px;
+
+}
+
+.section .card .text .eth, .time, .avatar-text{
+    color: hsl(215, 51%, 70%);
+    display: inline-block;
+}
+
+.section .card .text p{
+    color: hsl(215, 51%, 70%);
+    text-decoration: none;
+    font-family: Outfit;
+
+}
+
+.section .card .text .tittle a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: Outfit;
+    line-height: 50px;
+
+}
+
+.section .card .text .avatar a{
+    color: white;
+    text-decoration: none;
+}
+
+.section .card .text .eth .eth-price{
+    color: hsl(178, 100%, 50%);  
+}
+
+
+.section .card .text .price-time, .eth-price, .eth-icon, .time-text, .time-icon, .avatar-text, .avatar-icon{
+    display: inline-block;
+    line-height: 50px;
+    font-size: 15px;
+}
+
+.section .card .text .tittle a:hover{
+    color: hsl(178, 100%, 50%);    
+}
+
+.section .card .text .avatar a:hover{
+    color: hsl(178, 100%, 50%); 
+}
+
+.section .card .text .divisao{
+    border-color: hsl(215, 51%, 70%);
+    width: 300px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.section .card .text .flex .eth{
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+
+}
+
+.flex .time{
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+
+}
+
+.section .card .text .avatar{
+    display: inline-flex;
+    align-items: center;
+    gap: 1rem;
+}

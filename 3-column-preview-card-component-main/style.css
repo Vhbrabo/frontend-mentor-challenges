@@ -1,0 +1,120 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+.section{
+    background-color: hsl(0, 0%, 95%);  
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section .card{
+    display: flex;
+    max-width: 900px;
+    margin: 24px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.section .card .sedans{
+    background-color: hsl(31, 77%, 52%);
+    padding: 50px;
+}
+
+.section .card .suvs{
+    background-color: hsl(184, 100%, 22%);
+    padding: 50px;
+}
+
+.section .card .luxury{
+    background-color:hsl(179, 100%, 13%);
+    padding: 50px;
+}
+
+.tittle{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: hsl(0, 0%, 95%);
+    font-size: 40px;
+}
+
+.text{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 14.5px;
+    font-family: 'Lexend Deca', sans-serif;
+    line-height: 25px;
+    margin-bottom: 85px;
+}
+
+.botao1{
+    color: hsl(31, 77%, 52%);
+    background-color: hsl(0, 0%, 95%);
+    border: none;
+    height: 48px;
+    width: 150px;
+    font-size: 15px;
+    border-radius: 24px;
+    font-family: 'Lexend Deca', sans-serif;
+    cursor: pointer;
+}
+
+.botao1:hover{
+    color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+    background-color: hsl(31, 77%, 52%);
+}
+
+.botao2{
+    color: hsl(184, 100%, 22%);
+    background-color: hsl(0, 0%, 95%);
+    border: none;
+    height: 48px;
+    width: 150px;
+    font-size: 15px;
+    border-radius: 24px;
+    font-family: 'Lexend Deca', sans-serif;
+    cursor: pointer;
+}
+
+.botao2:hover{
+    color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+    background-color: hsl(184, 100%, 22%);
+}
+
+.botao3{
+    color: hsl(179, 100%, 13%);
+    background-color: hsl(0, 0%, 95%);
+    border: none;
+    height: 48px;
+    width: 150px;
+    font-size: 15px;
+    border-radius: 24px;
+    font-family: 'Lexend Deca', sans-serif;
+    cursor: pointer;
+}
+
+.botao3:hover{
+    color: hsl(0, 0%, 95%);
+    border: 2px solid hsl(0, 0%, 95%);
+    background-color: hsl(179, 100%, 13%);
+}
+
+@media screen and (max-width: 800px){
+    .section .card{
+        flex-direction: column;
+    }
+    .section{
+        height: 100%;
+    }
+    
+}

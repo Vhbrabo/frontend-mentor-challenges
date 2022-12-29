@@ -1,0 +1,118 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.section{
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: hsl(229, 6%, 66%);   
+    
+
+}
+
+.section .tittle{
+    padding-top: 60px;
+    font-weight: 200;
+    color: hsl(234, 12%, 34%);;
+}
+
+.section .subtittle{
+    color: hsl(234, 12%, 34%);
+    font-weight: 600;
+}
+
+.section .text{
+    color: hsl(229, 6%, 66%);
+    font-size: 18px;
+    padding-top: 20px;
+    text-align: center;
+    max-width: 600px;
+}
+
+.section .box-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1120px;
+    gap: 25px;
+    padding-top: 50px;
+
+}
+
+.section .box-section .card-center{
+    transform: translateY(50%);
+}
+
+.section .box-section .card{
+    background-color: white;
+    min-width: 350px;
+    max-width: 350px;
+    min-height: 250px;
+    border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    overflow: hidden;
+    position: relative;
+    margin: 18px auto;
+}
+
+.section .box-section .card .card-top{
+    content: '';
+    height: 4px;
+    width: 100%;
+    background-color: hsl(180, 62%, 55%);
+}
+
+.section .box-section .card .card-tittle{
+    font-size: 20px;
+    color: hsl(234, 12%, 34%);
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.section .box-section .card .card-text{
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-right: 50px;
+    font-size: 14px;
+}
+
+.section .box-section .card .card-icon{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding: 20px;
+}
+
+.section .box-section .card .card-top-supervisor{
+    background-color: hsl(180, 62%, 55%)
+}
+
+.section .box-section .card .card-top-team-builder{
+    background-color: hsl(0, 78%, 62%);
+}
+
+.section .box-section .card .card-top-karma{
+    background-color: hsl(34, 97%, 64%);
+}
+
+.section .box-section .card .card-top-calculator{
+    background-color: hsl(212, 86%, 64%);
+}
+
+@media screen and (max-width: 1100px){
+    .section .box-section .card-center{
+        transform: translateY(0);
+    }
+}

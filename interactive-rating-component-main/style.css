@@ -1,0 +1,139 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Overpass', sans-serif;
+}
+
+body{
+    background-color: hsl(216, 12%, 8%);
+    margin: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.main-card img{
+    background-color: hsl(213, 20%, 22%);
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+
+.main-card .tittle{
+    color: white;
+    margin: 2rem 0 1rem;
+}
+
+.text, .text2{
+    line-height: 1.8;
+
+}
+
+.main-card, .second-card{
+    background-color: hsl(213, 19%, 18%);
+    padding: 1.5rem;
+    border-radius: 0.625rem;
+}
+
+.main-card .text{
+    color: hsl(217, 12%, 63%);
+    margin-bottom: 1rem;
+}
+
+.main-card ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.main-card ul li .botao{
+    width: 3rem;
+    height: 3rem;
+    border: none;
+    background-color: hsl(213, 20%, 22%);
+    color: white;
+    border-radius: 50%;
+    padding-top: 0.2rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.main-card ul li .botao:hover{
+    background-color: hsl(25, 97%, 53%);
+}
+
+.main-card ul li .botao:focus{
+    background-color: hsl(217, 12%, 63%);
+}
+
+.submit-buttom{
+    background-color: hsl(25, 97%, 53%);
+    width: 100%;
+    padding: 0.8rem 0 0.6rem;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.submit-buttom:hover{
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
+
+.second-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.second-card img{
+    display: block;
+    margin: 0 auto 2rem;
+}
+
+.second-card .rating{
+    background-color: hsl(213, 20%, 22%);
+    border-radius: 30px;
+    color: hsl(25, 97%, 53%);
+    padding: 0.2rem 0.5rem 0;
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+}
+
+.second-card .tittle2{
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.second-card .text2{
+    color: hsl(217, 12%, 63%);
+    margin-bottom: 1.5rem;
+}
+
+.hide{
+    display: none;
+}
+
+@media screen and (min-width: 450px){
+    .main-card, .second-card{
+        max-width: 400px;
+    }
+}

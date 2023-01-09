@@ -22,4 +22,4 @@ Challenge | Difficulty | Technologies
 [Ping single column coming soon page](https://github.com/Vhbrabo/frontend-mentor-challenges/tree/main/ping-coming-soon-page-master) | Newbie | HTML, CSS & JS
 [Huddle landing page with a single introductory section](https://github.com/Vhbrabo/frontend-mentor-challenges/tree/main/huddle-landing-page-with-single-introductory-section-master) | Newbie | HTML & CSS
 [Advice generator app](https://github.com/Vhbrabo/frontend-mentor-challenges/tree/main/advice-generator-app-main) | Junior | HTML, CSS, JS & API
-[Testimonials grid section]() | Junior | HTML & CSS
+[Testimonials grid section](https://github.com/Vhbrabo/frontend-mentor-challenges/tree/main/testimonials-grid-section-main) | Junior | HTML & CSS

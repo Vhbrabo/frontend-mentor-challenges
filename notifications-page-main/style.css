@@ -1,0 +1,154 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+body{
+    background-color: hsl(210, 60%, 98%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    margin: 2rem;
+    width: 43.75rem;
+    background-color: white;
+    padding: 1.5rem 1rem;
+    border-radius: .5rem;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    transform: translateY(-100%);
+    animation: comeintop 1s ease forwards;
+}
+
+#notifications{
+    background-color: hsl(219, 85%, 26%);
+    color: white;
+    margin-left: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.188rem;
+    height: 1.875rem;
+    font-weight: 800;
+    border-radius: .5rem;   
+}
+
+#lertudo{
+    cursor: pointer;
+    transform: translateY(-100%);
+    animation: comeintop 1s ease forwards;
+    
+}
+
+#lertudo:hover{
+    transition: 0.3s;
+    color: hsl(219, 85%, 26%);
+}
+
+p{
+    color: hsl(219, 12%, 42%);
+}
+
+main{
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.notCard{
+    display: flex;
+    align-items: center;
+    border-radius: .5rem;
+    padding: 1rem;
+    transform: translateY(-100%);
+    animation: comeintop 1s ease forwards;
+}
+
+img{
+    width: 3.125rem;
+}
+
+.notification{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+
+strong{
+    color: hsl(224, 21%, 14%);
+    cursor: pointer;
+}
+
+strong:hover{
+    color: hsl(219, 85%, 26%);
+}
+
+.naolido{
+    background-color: hsl(211, 68%, 94%) !important;
+
+}
+
+.naolido p:first-of-type::after{
+    content: "";
+    background-color: hsl(1, 90%, 64%);
+    width: 0.625rem;
+    height: 0.625rem;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.msg-card{
+    display: flex;
+    align-items: center;
+}
+
+.msg{
+    padding: 1rem;
+    margin: 0 0 0 5rem;
+    border: 1px solid hsl(205, 33%, 90%);
+    border-radius: .3rem;
+    cursor: pointer;
+    transform: translateY(-100%);
+    animation: comeintop 1s ease forwards;
+}
+
+.msg:hover{
+    transition: 0.5s;
+    background-color: hsl(211, 68%, 94%);
+}
+
+.chess-img{
+    margin-left: auto;
+}
+
+@keyframes comeintop{
+    to {
+        transform: translateY(0);
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .container{
+        margin: 0;
+    }
+    
+}

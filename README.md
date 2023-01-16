@@ -26,3 +26,4 @@ Challenge | Difficulty | Technologies
 [Advice generator app](https://github.com/Vhbrabo/frontend-mentor-challenges/tree/main/advice-generator-app-main) | Junior | HTML, CSS, JS & API
 [Testimonials grid section](https://github.com/Vhbrabo/frontend-mentor-challenges/tree/main/testimonials-grid-section-main) | Junior | HTML & CSS
 [Notifications page](https://github.com/Vhbrabo/frontend-mentor-challenges/tree/main/notifications-page-main) | Junior | HTML CSS & JS
+[Coding bootcamp testimonials slider](https://github.com/Vhbrabo/frontend-mentor-challenges/tree/main/coding-bootcamp-testimonials-slider-master) | Junior | HTML CSS & JS

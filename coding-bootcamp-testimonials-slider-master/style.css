@@ -1,0 +1,182 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    position: relative;
+}
+
+.bg1{
+    position: absolute;
+    top: 18%;
+    right: 19.5%;
+}
+
+.bg2{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.bg3{
+    position: absolute;
+    top: 30%;
+    left: 29%;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    max-width: 70rem;
+    position: relative;
+    z-index: 1;
+}
+
+.text{
+    width: 100%;
+    font-size: 2.188rem;
+    color: hsl(240, 38%, 20%);
+    font-weight: 300;
+    margin: 1rem;
+    z-index: 1;
+}
+
+.person{
+    margin: 1rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    
+}
+
+.name{
+    color: hsl(240, 38%, 20%);
+    font-size: 1.25rem;
+}
+
+.occupation{
+    color: hsl(240, 18%, 77%);
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+
+.img{
+    position: relative;
+}
+
+.profile-img{
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.button{
+    background-color: white;
+    height: 3.75rem;
+    width: 4rem;
+    border: none;
+    cursor: pointer;
+}
+
+.button1{
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    position: absolute;
+    top: 94%;
+    right: 76.85%;
+}
+
+.button2{
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    position: absolute;
+    top: 94%;
+    right: 65%;
+}
+
+.button:hover{
+    transform: translateY(-5px);
+    transition: 0.3s;
+    background-color: hsl(240, 17%, 83%);
+}
+
+.profile1{
+    transform: translateX(-100%);
+    animation: comeinleft 1s ease forwards;
+}
+
+.profile2{
+    transform: translateX(100%);
+    animation: comeinright 1s ease forwards;
+}
+
+.desactive{
+    display: none;
+}
+
+@keyframes comeinleft{
+    to {
+        transform: translateX(0);
+    }
+
+}
+
+@keyframes comeinright{
+    to {
+        transform: translateX(0);
+    }
+}
+
+@media screen and (max-width: 900px){
+
+    .profile{
+        flex-direction: column-reverse
+    }
+
+    .img{
+        padding-top: 50px;
+        padding-bottom: 100px;
+    }
+
+    .text{
+        text-align: center;
+        width: 600px;
+        padding-bottom: 50px;
+    }
+
+    .person{
+        flex-direction: column;
+        padding-bottom: 50px;
+    }
+
+    .bg1{
+        width: 650px;
+        height: 650px;
+        top: -0%;
+        right: 0%;
+    }
+
+    .bg3{
+        top: 55%;
+        right: 20%;
+    }
+
+    .button1{
+        top: 80%;
+        right: 50%;
+    }
+
+    .button2{
+        top: 80%;
+        right: 38.5%;
+    }
+}

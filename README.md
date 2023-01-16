@@ -25,3 +25,4 @@ Challenge | Difficulty | Technologies
 [Base Apparel coming soon page](https://github.com/Vhbrabo/frontend-mentor-challenges/tree/main/base-apparel-coming-soon-master) | Newbie | HTML & CSS & JS
 [Advice generator app](https://github.com/Vhbrabo/frontend-mentor-challenges/tree/main/advice-generator-app-main) | Junior | HTML, CSS, JS & API
 [Testimonials grid section](https://github.com/Vhbrabo/frontend-mentor-challenges/tree/main/testimonials-grid-section-main) | Junior | HTML & CSS
+[Notifications page](https://github.com/Vhbrabo/frontend-mentor-challenges/tree/main/notifications-page-main) | Junior | HTML CSS & JS
